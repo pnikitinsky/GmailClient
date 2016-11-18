@@ -1,0 +1,26 @@
+PODS:
+  - GoogleAPIClientForREST/Core (1.1.1):
+    - GTMSessionFetcher (>= 1.1.7)
+  - GoogleAPIClientForREST/Gmail (1.1.1):
+    - GoogleAPIClientForREST/Core
+    - GTMSessionFetcher (>= 1.1.7)
+  - GTMOAuth2 (1.1.4):
+    - GTMSessionFetcher (~> 1.1)
+  - GTMSessionFetcher (1.1.7):
+    - GTMSessionFetcher/Full (= 1.1.7)
+  - GTMSessionFetcher/Core (1.1.7)
+  - GTMSessionFetcher/Full (1.1.7):
+    - GTMSessionFetcher/Core (= 1.1.7)
+
+DEPENDENCIES:
+  - GoogleAPIClientForREST/Gmail
+  - GTMOAuth2
+
+SPEC CHECKSUMS:
+  GoogleAPIClientForREST: f272e35f7fe9f80ab232756c798adc32245ece8c
+  GTMOAuth2: 7fc9c10f5c745f4d9850419ea88889fe3baa6b7d
+  GTMSessionFetcher: a1f8ed39e4fe21c68957daed472c7afbcdf29166
+
+PODFILE CHECKSUM: aa068c08e23050557ce35640900aad8e19701aac
+
+COCOAPODS: 1.2.0.beta.1
